@@ -11,12 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttonlayout"
+        android:background="@color/white"
         android:orientation="vertical">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
-            android:textColor="@color/white"
+            android:textColor="@color/purple_700"
             android:focusable="true"
             android:scrollHorizontally="true"
             android:singleLine="true"
@@ -54,6 +55,7 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:orientation="horizontal"
+    android:background="@color/purple_200"
     android:id="@+id/buttonlayout">
 
 
@@ -62,6 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+
         android:layout_weight="1">
         <android.widget.Button
             android:id="@+id/btnclear"
@@ -130,7 +133,7 @@
         android:orientation="vertical"
         android:layout_weight="1">
         <android.widget.Button
-            android:id="@+id/modulo"
+            android:id="@+id/btnpercent"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="%"
@@ -313,7 +316,7 @@
         </android.widget.Button>
 
         <android.widget.Button
-            android:id="@+id/btneual"
+            android:id="@+id/btnequal"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="="
