@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454c53"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:focusable="true"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:verticalScrollbarPosition="right"
+            android:background="@android:color/transparent"
+            android:paddingTop="10dp"
+            android:textAlignment="viewEnd"
+            android:textSize="50sp"
+            android:id="@+id/inputnumber">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/design_default_color_primary_variant"
+            android:ellipsize="end"
+            android:textSize="25dp"
+            android:focusable="false"
+            android:background="@android:color/transparent"
+            android:id="@+id/result"
+            android:textAlignment="viewEnd"
+            android:padding="10dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:id="@+id/buttonlayout">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <android.widget.Button
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:text="C"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:background="@drawable/ripple"
+           android:gravity="center">
+       </android.widget.Button>
+
+       <android.widget.Button
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:text="7"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:background="@drawable/ripple"
+           android:gravity="center">
+       </android.widget.Button>
+
+       <android.widget.Button
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:text="4"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:background="@drawable/ripple"
+           android:gravity="center">
+       </android.widget.Button>
+
+       <android.widget.Button
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:text="1"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:background="@drawable/ripple"
+           android:gravity="center">
+       </android.widget.Button>
+
+       <android.widget.Button
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:text="00"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:background="@drawable/ripple"
+           android:gravity="center">
+       </android.widget.Button>
+
+   </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>
