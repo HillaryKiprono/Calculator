@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonlayout"
         android:orientation="vertical">
         <EditText
             android:layout_width="match_parent"
@@ -187,11 +188,14 @@
         <android.widget.Button
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="*"
+            android:text=""
             android:textSize="30sp"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:background="@drawable/ripple"
+            android:drawableTop="@drawable/ic_baseline_backspace_24"
+            android:drawableTint="@color/white"
+            android:paddingTop="25dp"
             android:gravity="center">
         </android.widget.Button>
 
@@ -248,7 +252,7 @@
         <android.widget.Button
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="/"
+            android:text="÷"
             android:textSize="30sp"
             android:textStyle="bold"
             android:textColor="@color/white"
