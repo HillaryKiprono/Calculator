@@ -64,6 +64,7 @@
         android:orientation="vertical"
         android:layout_weight="1">
         <android.widget.Button
+            android:id="@+id/btnclear"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="C"
@@ -75,6 +76,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn7"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="7"
@@ -86,6 +88,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="4"
@@ -97,6 +100,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="1"
@@ -108,6 +112,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn00"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="00"
@@ -125,6 +130,7 @@
         android:orientation="vertical"
         android:layout_weight="1">
         <android.widget.Button
+            android:id="@+id/modulo"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="%"
@@ -136,6 +142,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn8"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="8"
@@ -147,6 +154,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn5"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="5"
@@ -158,6 +166,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="2"
@@ -169,6 +178,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn0"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="0"
@@ -186,6 +196,7 @@
         android:orientation="vertical"
         android:layout_weight="1">
         <android.widget.Button
+            android:id="@+id/btnback"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text=""
@@ -200,6 +211,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn9"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="9"
@@ -211,6 +223,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn6"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="6"
@@ -222,6 +235,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="3"
@@ -233,6 +247,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btndot"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="."
@@ -250,6 +265,7 @@
         android:orientation="vertical"
         android:layout_weight="1">
         <android.widget.Button
+            android:id="@+id/btndivide"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="÷"
@@ -261,6 +277,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btnmult"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="*"
@@ -272,6 +289,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btnminus"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="-"
@@ -283,6 +301,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btnadd"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="+"
@@ -294,6 +313,7 @@
         </android.widget.Button>
 
         <android.widget.Button
+            android:id="@+id/btneual"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="="
